@@ -32,7 +32,7 @@ public class CountStringCharsTest {
                 "\"h\" - 1\n" +
                 "\"e\" - 1\n" +
                 "\"l\" - 2\n" +
-                "\"o\" - 1\n";
+                "\"o\" - 1";
         String actual = countStringChars.count("hello");
         assertEquals(expected, actual);
     }
@@ -51,7 +51,7 @@ public class CountStringCharsTest {
                 "\"h\" - 1\n" +
                 "\"e\" - 1\n" +
                 "\"l\" - 2\n" +
-                "\"o\" - 1\n";
+                "\"o\" - 1";
         countStringChars.count(input);
         String actual = countStringChars.getInputsMap().get(input);
         assertEquals(expected, actual);
